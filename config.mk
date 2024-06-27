@@ -17,7 +17,8 @@ else
 XML2RFC_TEXT += --no-pagination
 endif
 XML2RFC_CSS := $(LIBDIR)/v3.css
-XML2RFC_HTML := --html --css=$(XML2RFC_CSS) --metadata-js-url=/dev/null
+#XML2RFC_HTML := --html --css=$(XML2RFC_CSS) --metadata-js-url=/dev/null
+XML2RFC_HTML := --html --metadata-js-url=/dev/null
 
 # If you are using markdown files use either kramdown-rfc or mmark
 #   https://github.com/cabo/kramdown-rfc
